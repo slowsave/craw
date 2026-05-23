@@ -1,7 +1,7 @@
 const { Client, GatewayIntentBits, EmbedBuilder } = require('discord.js');
 
 // ════════════════════════════════════════
-//   CRAW — paste your stuff here and go
+//   You can add more stuff here
 // ════════════════════════════════════════
 const TOKEN           = process.env.TOKEN;
 const WELCOME_CHANNEL = 'welcome-and-intros';   // your welcome channel
@@ -18,10 +18,10 @@ const YOUTUBE_CHANNELS = [
 
 const CHECK_INTERVAL_MINUTES = 5; // how often Craw checks for new videos
 
-// ════════════════════════════════════════
+// ════════════════════════════════════════these are greetings here
 
 const GREETINGS = [
-  (u) => `${u} just joined.`,
+  (u) => `${u} just joined .`,
   (u) => `oh, ${u} actually showed up.`,
   (u) => `welcome ${u}. make yourself at home or whatever.`,
   (u) => `${u} is here. say hi.`,
@@ -37,7 +37,7 @@ const GREETINGS = [
   (u) => `${u}'s here now.`,
   (u) => `welcome ${u}, grab a seat.`,
 ];
-
+// ════════════════════════════════════════these are youtube updates 
 const YOUTUBE_INTROS = [
   (name) => `${name} just posted.`,
   (name) => `new video from ${name}.`,
